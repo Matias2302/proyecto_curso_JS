@@ -3,10 +3,27 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="styles.css">
     <title>Document</title>
 </head>
 <body>
-    
+    <div class="container">
+        <h3>Ingresar producto</h3>
+        <div class="formulario-ingreso-producto">
+            <h4>Complete los campos, al finalizar haga click en "registrar producto"</h4>
+            <label for="nombre">Nombre del producto</label>
+            <input id="nombre" type="text" value=" " name="nombre">
+            <label for="precio">Precio</label>
+            <input id="precio" type="text" value=" " name="precio">
+            <input id="enviar" type="submit" value="Registrar producto">
+        </div>
+    </div>
+    <div id="agregado" >
+        <h3>Listado:</h3>
+    </div>
+    <div id="lista-productos">
+        
+    </div>
+    <script src="main.js"></script>
 </body>
 </html>
